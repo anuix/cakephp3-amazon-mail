@@ -20,4 +20,21 @@ You need to have an Amazon SES account
 ]
 ```
 
+and here
+
+```
+'Email' => [
+
+  ....
+  
+  'production' => [
+    'transport' => 'amazon',
+    //'log' => true,
+  ]
+  
+  ...
+  
+]
+```
+
 3. 
